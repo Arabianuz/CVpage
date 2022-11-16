@@ -13,6 +13,7 @@
         <link rel="icon" href="/myPhoto.jpg" />
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
   <header>
@@ -28,9 +29,11 @@
       </div>
     </section>
   </header>
+  <hr class="hr">
   <section id="education_section">
-    <h1 id="education_heading">Education</h1>
-    <table>
+    <h1 id="education_heading" class="display-1 text-center">Education</h1>
+    
+    <table class="table table-bordered border-primary">
         <caption>My Education Results 2013</caption>
         <tr>
             <th class="table_heading">Institute</th>
@@ -51,34 +54,92 @@
 
   </section>
   <section id="experience_section">
-      <h1 id="experience_heading">
+      <h1 id="experience_heading" class="display-1 text-center">
         Experience
       </h1>
-      <table>
-
+      <table class="table table-bordered border-primary">
+         <tr>
+          <th class="table-active">No Experience</th>
+         </tr>
       </table>
   </section>
   <section id="projects_section">
-      <h1 id="projects_title">
+      <h1 id="projects_title" class="display-1 text-center align-items">
         Projects
       </h1>
-      <ul id="projects_list">
-        <li>Landing Page</li>
-        <li>E-commerce</li>
+      <ul id="projects_list" class="list list-group align-items-center">
+        <li class="list-group-item">Landing Page</li>
+        <li class="list-group-item">E-commerce</li>
       </ul>
   </section>
-  <footer id="footer">
-     <a href="/contact" id="contact_link">Contact Me</a>
-     
-     <a href="https://facebook.com" id="sm_links">
-        <img src="sm_icons/facebook.png" alt="facebook" id="sm_facebook" 
-          width="40px" height="40px">
-        <img src="sm_icons/linkedin.png" alt="linkedin" id="sm_linkedin"
-          width="40px" height="40px">
-        <img src="sm_icons/twitter.png" alt="twitter" id="sm_twitter"
-          width="40px" height="40px">
-     </a>
-    
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fa fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-black" href="#">Shermuhammad Ubaydillayev</a>
+    </div>
+    <!-- Copyright -->
   </footer>
 </body>
 <script src="assets/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

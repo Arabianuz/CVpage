@@ -27,7 +27,6 @@ body {
 .container {
     display: flex;
     justify-content: center;
-
 }
 #personal_image {
     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2); 
@@ -65,4 +64,7 @@ body {
 .myName {
     text-align: center;
     color: #161B40;
+}
+#education_section {
+    margin: auto;
 }
